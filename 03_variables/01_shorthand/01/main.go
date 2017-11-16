@@ -12,11 +12,11 @@ func main() {
 	f := `Do you like my hat?`
 	g := 'M'
 
-	fmt.Printf("%v \n", a)
-	fmt.Printf("%v \n", b)
-	fmt.Printf("%v \n", c)
-	fmt.Printf("%v \n", d)
-	fmt.Printf("%v \n", e)
-	fmt.Printf("%v \n", f)
-	fmt.Printf("%v \n", g)
+	fmt.Printf("%v \t %T \n", a, a)
+	fmt.Printf("%v \t %T \n", b, b)
+	fmt.Printf("%v \t %T \n", c, c)
+	fmt.Printf("%v \t %T \n", d, d)
+	fmt.Printf("%v \t %T \n", e, e)
+	fmt.Printf("%v \t %T \n", f, f)
+	fmt.Printf("%v \t %T \n", g, g)
 }
