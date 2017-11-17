@@ -14,4 +14,6 @@ func main() {
 			break
 		}
 	}
+	fmt.Println([]rune("Hello"))
+	fmt.Println()
 }
