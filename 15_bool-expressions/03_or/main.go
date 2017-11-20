@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go/token"
+)
 
 func main() {
 
-	if true || false {
-		fmt.Println("This ran")
+	if true {fmt.Println("true")
 	}
 }

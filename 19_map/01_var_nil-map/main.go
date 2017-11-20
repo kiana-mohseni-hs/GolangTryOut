@@ -4,9 +4,18 @@ import "fmt"
 
 func main() {
 
-	var myGreeting map[string]string
+	myGreeting := map[string]string{
+		"claudia": "hola",
+		"steve": "hello",
+	}
+	var MGreeting = make(map[string]string)
+
 	fmt.Println(myGreeting)
 	fmt.Println(myGreeting == nil)
+	MGreeting["kiana"] = "salaam"
+	fmt.Println(MGreeting)
+	fmt.Println(myGreeting)
+
 }
 
 // add these lines:

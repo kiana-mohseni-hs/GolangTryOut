@@ -1,12 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var x [58]int
-	fmt.Println(x)
-	fmt.Println(len(x))
-	fmt.Println(x[42])
-	x[42] = 777
-	fmt.Println(x[42])
+	sl := []int{0,1}
+	sls := new([100]int)[0:50]
+	sln := make ([]int, 50, 100)
+	fmt.Printf("%T \n", sl)
+	fmt.Println(sl)
+	fmt.Println(sls)
+	fmt.Println(sln)
+	sln = append (sln, 9)
+	fmt.Println(sln)
+
 }
